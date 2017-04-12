@@ -8,7 +8,8 @@
 Asensin koneeseen Puppetin ja moduulin tekoa varten siirryin /etc/puppet/modules kansioon ja loin sinne kansion lamp ja sen alle kansion manifests jonka sisälle loin init.pp tiedoston.
 Käytin lähteenäni https://www.digitalocean.com/community/tutorials/getting-started-with-puppet-code-manifests-and-modules olevaa tutoriaalia jonka pohjalta tein oman moduulini.
 sudo puppet apply -e 'class{lamp:}' komennolla saamme moduulin toimimaan 
-
+'''
 **Lähteet**
 http://terokarvinen.com/2017/aikataulu-%E2%80%93-palvelinten-hallinta-ict4tn022-2-%E2%80%93-5-op-uusi-ops-loppukevat-2017-p2
 https://www.digitalocean.com/community/tutorials/getting-started-with-puppet-code-manifests-and-modules
+'''
